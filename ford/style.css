@@ -1,0 +1,50 @@
+#body{
+    margin: 0;
+    padding: 0;
+}
+#header{
+    width: 110vw;
+    height: 90px;
+    background: #F56854;
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#titulo-h1{
+    margin: 2px;
+    padding: 3px;
+    font-size: 45px;
+    font-style: oblique;
+    font-family: 'Times New Roman', Times, serif;
+}
+#titulo-h2{
+    font-size: 25px;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    margin: 15px;    
+    padding: 5px;
+}
+#header ul{
+    list-style-type: none;
+    padding: 0px;
+    margin: 24px;
+
+}
+#header ul li{
+    display: inline;
+    margin: 10px;
+    
+}
+
+#header ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+}
+#header ul li a:hover{
+    color: aqua;
+    
+}
+
